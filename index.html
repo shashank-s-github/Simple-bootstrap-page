@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shashank.Dev</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tin">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Me
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://twitter.com/Anothereader_21">Twitter</a></li>
+                <li><a class="dropdown-item" href="mailto:sharma810shashank@gmail.com">Mail me</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="https://hashnode.com/@shashank19"
+                    >Wanna Read my blogs: My Hashnode</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <!-- carousel starts here -->
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            style="height: 500px; width: 960px"
+            src="/images/one.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Welcome to Shashank.Dev</h2>
+            <p>We make things short, sweet & simple.</p>
+            <button class="btn btn-outline-light">Technology</button
+            ><button class="btn btn-outline-light">Web Development</button
+            ><button class="btn btn-outline-light">Freelancing</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 500px; width: 960px"
+            src="/images/two.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Explore our blogs on Hashnode.</h2>
+            <p>Crisp, up-to date and short sized blogs every weekend.</p>
+            <button class="btn btn-outline-light">Technology</button
+            ><button class="btn btn-outline-light">Web Development</button
+            ><button class="btn btn-outline-light">Freelancing</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 500px; width: 960px"
+            src="/images/three.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2>Freelancing and more....</h2>
+            <p>
+              Looking for best freelancers for your work.Your search is over.
+            </p>
+            <button class="btn btn-outline-light">Technology</button
+            ><button class="btn btn-outline-light">Web Development</button
+            ><button class="btn btn-outline-light">Freelancing</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- carousel ends here -->
+ 
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row text-center justify-content-center">
+        <div class="col-lg-4">
+          <img src="/images/coding.png" alt="">
+          <h2>Web Development</h2>
+          <p>Our goal is to make minimalist and responsive website with beautifull layouts.</p>
+          <p><a class="btn btn-outline-dark" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/images/freelancer.png" alt="">
+  
+          <h2>Freelancing</h2>
+          <p>The team of top freelancers around the globe. So you dont need to wander for the best.</p>
+          <p><a class="btn btn-outline-dark" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="/images/blogging.png" alt="">
+  
+          <h2>Tech Blogs</h2>
+          <p>We write tech blogs in hashnode and medium. Do checkout our handles.</p>
+          <p><a class="btn btn-outline-dark" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+  
+  
+      <!-- START THE FEATURETTES -->
+  
+      <hr class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" id="tin">Tindog Project</h2>
+          <p class="lead"> YOU HEAR RIGHT! <br> It's not tinder, it's tindog. We make a dating app for dogs.How many times you felt that being in office, meetings and all, you cant give time to your own doggy.Well, at Shashank.Dev we have a solution for that. <br>
+          You are just a click away from taking your dog out of that boredom and let him/her enjoy their own life.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="/images/tindog.PNG" class="img-fluid mx-auto" width="500" height="500" alt="">
+        </div>
+      </div>
+  
+      <br class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">Weather app</h2>
+          <p class="lead">The Advance weather app made with pure HTML, CSS & Javascript. <br>Provide Real time data of any country or city in the world with 5 day pre and post analysis.</p>
+         <h4>COMING SOON.........</h4> 
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img src="/images/wet.jpg" alt="" img-fluid mx-auto" width="500" height="500"> 
+  
+        </div>
+      </div>
+  
+      <br class="featurette-divider">
+  
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Stock Market bot</h2>
+          <p class="lead">The most beloved project which is still in progress. <br>We are presenting"THE STOCK MARKET BOT". <br>This Bot helps to sell and buy your favourite stocks at particular price you set with the help of its AI feature. <br>It also helsp you filter the penny stocks, 1-3 years stocks which are performing exceptionally well and the long term stocks for holding. </p>
+          <h5>COMING SOON................</h5>
+        </div>
+        <div class="col-md-5">
+          <img src="./images/yiorgos-ntrahas-mcAUHlGirVs-unsplash.jpg" class=" img-fluid mx-auto" width="500" height="500"> 
+        </div>
+      </div>
+  
+      <br class="featurette-divider">
+  
+      <!-- /END THE FEATURETTES -->
+      
+      <!-- footer starts here   -->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <p class="col-md-4 mb-0 text-muted">© 2022 Shashank.DEV</p>
+      
+         
+      
+          <ul class="nav col-md-4 justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Works</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          </ul>
+            
+        </footer>
+      </div>
+      <!-- footer ends here -->
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- Hire the top freelancers, which gets your workdone in minimum amount of time.
+ALL Of Our Developer are fullstack with a brief knowldge of Devops. No need to
+worry about deployment, CI-CD, Hosting. We'll be ther with you in every steps. -->
+
+<!-- Quality work with a top developers around the globe. You'll get connected to our
+developers directly and tell the exact need of your work. It depends on you, how
+many members you want.Be it 1 or 2 or a group of 10 peoples. -->
